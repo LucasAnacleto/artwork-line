@@ -15,6 +15,7 @@ const titleSize = {
     `,
 };
 
+
 const titleCase = (uppercase) => css`
     text-transform: ${uppercase ? 'uppercase' : 'none'};
 `;
