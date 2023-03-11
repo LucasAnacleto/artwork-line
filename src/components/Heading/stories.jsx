@@ -28,8 +28,10 @@ Light.parameters = {
 Dark.args = {
   children: 'O texto está claro',
   colorDark: false,
+  uppercase: true,
 };
 
 Light.args = {
     colorDark: true,
+    uppercase: true,
   };

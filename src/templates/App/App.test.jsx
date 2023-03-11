@@ -7,7 +7,9 @@ export const renderTheme = (children) => {
     return render(<ThemeProvider theme={theme}>{children}</ThemeProvider>);
 };
 
+describe('<Home />', () => {
+    it('should render home', () => {
+        renderTheme(<Home />);
+    });
+})
 
-test('renders learn react link', () => {
-    renderTheme(<Home />);
-});
