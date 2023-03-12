@@ -25,7 +25,7 @@ describe('<Heading />', () => {
         })
     });
 
-    it('should render correct heading sizes ', () => {
+    it('should render correct heading sizes', () => {
         const { rerender } = renderTheme(<Heading size='small'>texto</Heading>);
         const heading = screen.getByRole('heading', { name: 'texto' });
 
